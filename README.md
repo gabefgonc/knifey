@@ -29,5 +29,5 @@ for i in Command("cat /etc/passwd").execute().find(os.environ["USER"]):
 
 Wow! That's a new method, find! This one returns a list of the found strings on a command result. First, you create the command, which shows the contents of /etc/passwd (cat /etc/passwd). You execute it, and search for your username on the file (the username is being received from the enviroment variable USER on an unix system). Finally, you iterate over the list of found strings, and print them!
 
-That's it! You learned how to use knifey! Very easy, do you think so?
+That's it! You learned how to use knifey! Very easy, don't you think so?
 
